@@ -43,3 +43,18 @@ For $_SESSION variables use this :
 ~~~twig
 {{ app.request.session.get("page") }}
 ~~~
+NULL CHECK
+-------
+[Ref][a]
+
+[a]:https://stackoverflow.com/questions/3264889/how-to-check-for-null-in-twig
+~~~twig
+{% if var is null %}
+    {# do something #}
+{% endif %}
+~~~
+~~~twig
+{% if var is not defined %}
+    {# do something #}
+{% endif %}
+~~~
