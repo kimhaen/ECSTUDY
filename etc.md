@@ -59,7 +59,7 @@ $ vi ~/.ssh/config
 [1]+  Stopped                 vi ~/.ssh/config
 haein.kim@0236-PC MINGW64 ~/.ssh
 $ cat ~/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDg3OZ3CUglZtheEkznaex9gy/5BlYV/QCbnEmmy1RkQgG9aIY6Fxh856ZA/OxQQ0wKa2hXdfP2F8Jv50KVJs5BJ3IYrz15/rhRVgVsXIglhf8r5pCx85Sc4HUv0QrzvqOIpVP7h+S26kT7he63irsHdM0Aypf73SRjjJLJ6Y5ddUI6BRlC/YyXiap2aKGNMdR4eTbpfxB6XjYc9asKrXH08n5hgvGRLuBiqs21BtchevULqmIAWgPM7GBGrvjiyT5a0pzLAt9FufcL733BSEXVrhHva1rzzK4gjqv8ZV4yw25lZUQIcheftbdMsnnBVInYISTjA2akDS3buwFNOJdPJLUqamxL08+/tRJ1gP0RQpMSHifpuqcXxnGiTckn4kyNWwoF/b/3thHxK8RxiecruIsnIzDArZJEj8UlhoVQ/JIf06YP8jNXkeeHSCe3rGzSwoE9SbtKfQ4Tj343kT/kJ1Pg1cntUT7xvJzYTETXalGmWS8xeN9MK1W3uA/HBKU= haein.kim@0236-PC
+ssh-rsa
 ~~~~~~~
 </div>
 </details>
