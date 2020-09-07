@@ -25,7 +25,8 @@ $ ssh -T git@github.com
 ~~~~
 <details>
 <summary>Command </summary>
-<div markdown="1">                
+<div markdown="1">    
+
 haein.kim@0236-PC MINGW64 /c/projects
 $ mkdir ~/.ssh
 haein.kim@0236-PC MINGW64 /c/projects
@@ -59,7 +60,7 @@ $ vi ~/.ssh/config
 [1]+  Stopped                 vi ~/.ssh/config
 haein.kim@0236-PC MINGW64 ~/.ssh
 $ cat ~/.ssh/id_rsa.pub
-ssh-rsa
-~~~~~~~
+ssh-rsa     
+
 </div>
 </details>
