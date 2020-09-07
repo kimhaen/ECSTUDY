@@ -13,7 +13,7 @@ Kubernetes
 
 #### Desired state
 
-![a](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/desired-state.png =100x20)
+![a](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/desired-state.png=100x20)
 
 * current state
 * imperative 命令
@@ -28,7 +28,7 @@ $ kubectl create # 상태 생성
 
 * **Pod**
 
-![](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/pod.png =100x20)
+![](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/pod.png=100x20)
 
 > * 쿠버네티스에서 배포할 수 있는 가장 작은 단위
 > * 한 개 이상의 컨테이너와 스토리지, 네트워크 속성을 가짐
@@ -37,7 +37,7 @@ $ kubectl create # 상태 생성
 
 * **ReplicaSet**
 
-![](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/replicaset.png =100x20)
+![](https://subicura.com/assets/article_images/2019-05-19-kubernetes-basic-1/replicaset.png=100x20)
 > * Pod을 여러 개(한 개 이상) 복제하여 관리하는 오브젝트
 > * Pod을 생성하고 개수를 유지하려면 반드시 ReplicaSet을 사용
 > * ReplicaSet은 복제할 개수, 개수를 체크할 라벨 선택자, 생성할 Pod의 설정값(템플릿)등을 가짐
