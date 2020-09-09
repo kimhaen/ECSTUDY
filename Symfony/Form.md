@@ -57,4 +57,26 @@
 
 ~~~~twig
 {{ form.task.vars.id }}
-~~~~s
+~~~~
+
+* form_label(form_view, label, variables)
+
+~~~~TWIG
+{{ form_label(form.name) }}
+
+{# The two following syntaxes are equivalent #}
+{{ form_label(form.name, 'Your Name', {'label_attr': {'class': 'foo'}}) }}
+
+{{ form_label(form.name, null, {
+    'label': 'Your name',
+    'label_attr': {'class': 'foo'}
+}) }}
+
+~~~~
+
+* form_widget(form_view, variables)
+
+~~~~TWIG
+{# render a widget, but add a "foo" class to it #}
+{{ form_widget(form.name, {'attr': {'class': 'foo'}}) }}
+~~~~
