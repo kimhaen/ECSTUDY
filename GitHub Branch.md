@@ -45,3 +45,20 @@ $ git merge issue1
 ~~~~
 $ git branch -d issue1
 ~~~~
+
+Branch Name Change
+----
+A_branch(Old) & B_branch(New)
+
+* Change Name A_branch to B_branch
+~~~~~
+$ git branch -m A_branch B_branch
+~~~~~
+* Delete Old branch
+~~~~~
+$ git push origin :A_branch
+~~~~~
+* Upload New branch
+~~~~~
+$ git push --set-upstream origin B_branch
+~~~~~
