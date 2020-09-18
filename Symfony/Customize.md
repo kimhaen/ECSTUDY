@@ -84,3 +84,63 @@ class AnalyticsManager
 }
 
  ~~~~
+
+### Render in Listener
+
+[EC-CUBE4 Event Listener][e]
+
+[e]:https://github.com/EC-CUBE/ec-cube/blob/4.0/src/Eccube/EventListener/TwigInitializeListener.php
+[Ref][re]
+
+[re]:https://stackoverflow.com/questions/6874521/how-to-render-a-template-inside-an-eventlistener
+~~~~php
+use Twig\Environment;
+
+public $_engine;
+
+public function __construct(\Swift_Mailer $mailer, Environment $engine)
+{
+    $this->mailer= $mailer;
+    $this->_engine = $engine;
+}
+
+this->mailer->send( (new \Swift_Message('something happened'))
+            ->setFrom('test@test.com')
+            ->setTo('user@user.com')
+            ->setBody($this->_engine->render('mails/test.html.twig',[
+             ])
+        );
+~~~~
+~~~~php
+use Twig\Environment;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+
+class TwigInitializeListener implements EventSubscriberInterface
+{
+/**
+    * @var Environment
+    */
+   protected $twig;
+   /**
+       * TwigInitializeListener constructor.
+       *
+       * @param Environment $twig
+       */
+      public function __construct(
+          Environment $twig,
+      ) {
+          $this->twig = $twig;
+      }
+
+~~~~
+* send value to twig 
+~~~~php
+$this->twig->addGlobal('Page', $Page);
+
+$this->twig->render(
+                  　  'Entry/confirm.twig',
+                  　  [
+                      'form' => $form->createView(),
+                  　  ]
+                  　);
+~~~~
