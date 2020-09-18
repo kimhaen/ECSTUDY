@@ -133,7 +133,7 @@ class TwigInitializeListener implements EventSubscriberInterface
       }
 
 ~~~~
-* send value to twig 
+* send var to view from event listener 
 ~~~~php
 $this->twig->addGlobal('Page', $Page);
 
