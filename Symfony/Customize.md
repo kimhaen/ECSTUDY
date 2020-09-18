@@ -34,3 +34,53 @@ class HelloListener implements EventSubscriberInterface
     }
 }
 ~~~~~
+
+ ### Use Entity Manager in Listener
+
+[Ref][s]
+
+[s]:https://stackoverflow.com/questions/27392739/symfony2-how-to-get-entity-manager-in-listener
+ ~~~~php
+
+namespace MPN\CRMBundle\Manager;
+
+use Doctrine\ORM\EntityManager;
+use MPN\CRMBundle\Entity\Analytics;
+use MPN\CRMBundle\Service\DateTimeBuilder;
+
+class AnalyticsManager
+{
+    /**
+     * @var EntityManager
+     */
+    public $em;
+
+    /**
+     * @var DateTimeBuilder
+     */
+    private $dateTimeBuilder;
+
+    /**
+     * @var array
+     */
+    private $analytics;
+
+    public function __construct(EntityManager $em, DateTimeBuilder $dateTimeBuilder)
+    {
+        $this->em = $em;　 // EntityManager
+        $this->dateTimeBuilder = $dateTimeBuilder;
+        $this->setup();
+    }
+
+    /**
+     * Flushes the data to the database.
+     *
+     * @return void
+     */
+    public function save()
+    {
+        $this->em->flush();  // 保存
+    }
+}
+
+ ~~~~
