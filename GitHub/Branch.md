@@ -62,3 +62,21 @@ $ git push origin :A_branch
 ~~~~~
 $ git push --set-upstream origin B_branch
 ~~~~~
+
+Delete Branch
+------
+[Ref](https://backlog.com/git-tutorial/kr/stepup/stepup2_5.html)
+
+**Branch Delete**
+~~~
+$ git branch -d <branchname>
+~~~
+**Forced Delete**
+~~~
+$ git branch -D <branchname>
+~~~
+
+**git branch check**
+~~~
+$ git branch
+~~~
