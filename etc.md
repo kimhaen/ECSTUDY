@@ -73,5 +73,5 @@ markdown
 
 Image Slider
 -----
-[Slick](https://kenwheeler.github.io/slick/)
+[Slick](https://kenwheeler.github.io/slick/)              
 [Swiper](https://swiperjs.com/demos/)
