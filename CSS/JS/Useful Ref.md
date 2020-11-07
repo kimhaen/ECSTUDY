@@ -2,5 +2,5 @@
 
 ### Responsive Slider
 ★  [Swiper Slider](https://swiperjs.com/demos/)         
-★  [Slick Slider](https://kenwheeler.github.io/slick/)
+★  [Slick Slider](https://kenwheeler.github.io/slick/)          
 ★  [bx Slider](https://bxslider.com/)
