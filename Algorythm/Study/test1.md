@@ -1,7 +1,7 @@
 ### Q1.print Hello World!
 [Q1](https://www.acmicpc.net/problem/2557)
 
-####JAVA
+#### JAVA
 ~~~JAVA
 class Main{
   public static void main(String[] args){
@@ -10,11 +10,11 @@ class Main{
 }
 ~~~
 
-####Python
+#### Python
 ~~~Python
 print("Hello World!");
 ~~~
-####PHP
+#### PHP
 ~~~php
 $string = "Hello World!";
 echo $string;
