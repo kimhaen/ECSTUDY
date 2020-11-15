@@ -6,13 +6,13 @@ gulp Study
 * [npm Gulp-Sass](https://www.npmjs.com/package/gulp-sass)  
 
 
-####  SCSS COMPILATION
+###  SCSS COMPILATION
 
 * [Sass Basics](https://sass-lang.com/guide)   
 * [Style Rules](https://sass-lang.com/documentation/style-rules)  
 
 
-#### Variables
+### Variables
 
 ~~~~SCSS
 // 변수를 사용할때는'$변수명'을 사용
@@ -31,8 +31,8 @@ body {
 }
 ~~~~~~~
 
-#### Nesting
-#####scss
+### Nesting
+#### scss
 ~~~~~~SCSS
 nav {
   ul {
@@ -51,7 +51,7 @@ nav {
 }
 ~~~~~~~
 
-#### Partials
+### Partials
 ~~~~scss
 Use "_filename.scss"
 ⇒ 부분화하는 방법：파일명 앞에 언더바(_)입력
@@ -59,9 +59,9 @@ Use "_filename.scss"
 ⇒ @import 'filename(url)'
 ~~~~
 
-#### Mixin
+### Mixin
 + 선언하여, 인자전달 & 기본값 설정 가능
-#####scss
+#### scss
 ~~~~scss
 @mixin transform($property) {
   -webkit-transform: $property;
@@ -70,7 +70,7 @@ Use "_filename.scss"
 }
 .box { @include transform(rotate(30deg)); }
 ~~~~
-#####css
+#### css
 ~~~css
 .box {
   -webkit-transform: rotate(30deg);
@@ -78,7 +78,7 @@ Use "_filename.scss"
   transform: rotate(30deg);
 }
 ~~~
-#####sample
+#### sample
 ~~~~scss
 @mixin flexCenter($align, $type, $color: black) {
  	/* 3개의 매개변수 지정, 마지막 컬러값에는 기본값으로 black을 지정 */
@@ -107,7 +107,7 @@ Use "_filename.scss"
 	}
 }
 ~~~~
-#### Extend/Inheritance
+### Extend/Inheritance
 + 공통적인 부분들을 묶어서 사용가능
 + 값을 상속받아 사용 가능
 ~~~~~scss
@@ -144,7 +144,7 @@ Use "_filename.scss"
 }
 ~~~~~~
 
-#### Operators
+### Operators
 + 연산자 ( +, -, *, /, % ) 사용가능
 ~~~~~scss
 .container {
