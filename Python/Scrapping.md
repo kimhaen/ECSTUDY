@@ -10,6 +10,6 @@ Web Scrapping
 
 #### Web Scrapping 3 Steps
 
-> Scraping - 데이터 가져오기
-> Parsing - 데이터 파씽
-> Manipulation - 데이터 가공
+> Scraping - 데이터 가져오기       
+> Parsing - 데이터 파씽       
+> Manipulation - 데이터 가공        
