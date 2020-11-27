@@ -30,3 +30,15 @@ say_hello("hi")
 hello annoymous
 hello hi
 ~~~~~~
+
+~~~~Python
+def say_hi(name, emotion):
+return f"Hello Nico, my name is {name} and I am very {emotion} to join the challenge!"
+
+hi = say_hi(name="Hi", emotion="Happy")
+print(hi)
+
+
+---result
+Hello Nico, my name is Hi and I am very Happy to join the challenge!
+~~~~
