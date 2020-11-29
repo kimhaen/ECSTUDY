@@ -42,7 +42,7 @@ print(hi)
 Hello Nico, my name is Hi and I am very Happy to join the challenge!
 ~~~~
 
-if Statement
+### if Statement
 
 ~~~Python
 def if_test(num):
@@ -64,3 +64,18 @@ if_test(100)
 ---result
 50 < num <= 100
 ~~~
+
+### use module
+
+~~~Python
+from math import ceil, fsum
+
+print(ceil(1.2))
+print*(fsum([1,2,3,4,5,6,7]))
+
+
+
+---result
+2
+28.0
+~~~~~~
