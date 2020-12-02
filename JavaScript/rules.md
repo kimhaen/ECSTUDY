@@ -1,3 +1,9 @@
+Rules
+---
+##### Variable : let, const, var
+##### DataType : String, Boolean, Number, Float
+
+
 function
 ---
 ★ Using argument
@@ -24,3 +30,19 @@ sayHello("Hi", 20);
 Hello! Hi you have 20 years of age
 
 ~~~~~
+
+DOM(Document Object Model)
+---
+~~~~javascript
+document.getElementByID('id').onClick = function() {
+
+                    do something
+
+}
+~~~~~
+### event
+- page (load, upload, abort)
+- mouse (click, mouseover)
+- keyboard (keydown)
+- focus (focus, blur)
+- form (submit, reset, change)
