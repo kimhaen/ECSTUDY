@@ -5,7 +5,7 @@ MVC MODEL
 + VIEW(jsp)
 + CONTROLLER(DAO / Servlet) -CRUD
 
-+ DAO → SERVLET → jsp
++ DTO → SERVLET → jsp
 
 ### DAO
 1.CONNECT to DB
@@ -17,7 +17,7 @@ PASSWD=""
 
 Connection getConnection()
 
-Select 
+Select
 Create
 Update
 Delete
