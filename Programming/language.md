@@ -1,6 +1,20 @@
-Compile & Script Language
+
+BackEnd & FrontEnd & Server
+-----
+### BackEnd        
+
+![BackEnd](https://www.freecodecamp.org/news/content/images/2020/08/backend.png)
+### FrontEnd     
+
+![BackEnd](https://www.freecodecamp.org/news/content/images/2020/08/frontend.png)
+### Server    
+
+![BackEnd](https://i0.wp.com/i.pinimg.com/originals/92/95/ad/9295ad5082e8cac36a92c8b85f076ecc.png?resize=650,400)
+
+
+Compile & Script Language 
 ---
-[Basic Concept](https://m.blog.naver.com/PostView.nhn?blogId=koreaitdt&logNo=221695062174&proxyReferer=https:%2F%2Fm.search.naver.com%2Fsearch.naver%3Fquery%3D%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25BD%25ED%258A%25B8%2B%25EC%2596%25B8%25EC%2596%25B4%2B%25EC%25A2%2585%25EB%25A5%2598%26where%3Dm%26sm%3Dmob_hty.idx%26qdt%3D1)
+[Basic Concept](https://m.blog.naver.com/PostView.nhn?blogId=koreaitdt&logNo=221695062174&proxyReferer=https:%2F%2Fm.search.naver.com%2Fsearch.naver%3Fquery%3D%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25BD%25ED%258A%25B8%2B%25EC%2596%25B8%25EC%2596%25B4%2B%25EC%25A2%2585%25EB%25A5%2598%26where%3Dm%26sm%3Dmob_hty.idx%26qdt%3D1)   
 ![aa](https://mblogthumb-phinf.pstatic.net/MjAxOTExMDFfMTE2/MDAxNTcyNTg2MTMzNDYw.AsrScEMTQfk-U_wl0A_4659EwL7jFMtBcZPBaOYUc_og.4hf0TQYgFaiaf1cCMijiM5ELrGZ90FiP4Fw_I9EJX20g.PNG.koreaitdt/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4_%EB%B6%84%EB%A5%98.png?type=w800)
 
 
