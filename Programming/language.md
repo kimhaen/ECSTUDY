@@ -1,17 +1,4 @@
 
-BackEnd & FrontEnd & Server
------
-### BackEnd        
-
-![BackEnd](https://www.freecodecamp.org/news/content/images/2020/08/backend.png)
-### FrontEnd     
-
-![BackEnd](https://www.freecodecamp.org/news/content/images/2020/08/frontend.png)
-### Server    
-
-![BackEnd](https://i0.wp.com/i.pinimg.com/originals/92/95/ad/9295ad5082e8cac36a92c8b85f076ecc.png?resize=650,400)
-
-
 Compile & Script Language 
 ---
 [Basic Concept](https://m.blog.naver.com/PostView.nhn?blogId=koreaitdt&logNo=221695062174&proxyReferer=https:%2F%2Fm.search.naver.com%2Fsearch.naver%3Fquery%3D%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25BD%25ED%258A%25B8%2B%25EC%2596%25B8%25EC%2596%25B4%2B%25EC%25A2%2585%25EB%25A5%2598%26where%3Dm%26sm%3Dmob_hty.idx%26qdt%3D1)   
