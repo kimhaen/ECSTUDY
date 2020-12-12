@@ -36,3 +36,9 @@ Amazon Inspector는 리소스의 취약성 또는 모범 사례와의 편차를 
 VPC 흐름 로그, AWS CloudTrail 관리 이벤트 로그, Cloudtrail S3 데이터 이벤트 로그 및 DNS 로그.
 악성 IP 주소 및 도메인 목록 등 위협 인텔리전스 피드와 기계 학습을 사용하여 AWS 환경에서
 예기치 않게 발생하는 잠재적 무단 활동과 악의적 활동을 찾아냅니다.
+
+### AWS Secrets Manager
+> 이렇게 하면 보안 암호가 코드에 더 이상 존재하지 않기 때문에 코드를 검사하는 누군가에 의해 보안 암호가 손상되지 않도록 방지할 수 있습니다.
+또한 사용자가 지정된 일정에 따라 Secrets Manager가 자동으로 보안 암호를 교체하도록 구성할 수 있습니다. 따라서 단기 보안 암호로 장기 보안 암호를 교체할 수 있어 손상 위험이 크게 줄어듭니다.
+>
+>![SM](https://docs.aws.amazon.com/ko_kr/secretsmanager/latest/userguide/images/ASM-Basic-Scenario.png)
