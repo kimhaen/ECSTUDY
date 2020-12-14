@@ -13,7 +13,11 @@ Before Study
 
 Test Review
 ---
+[SAA Review](http://blog.naver.com/PostView.nhn?blogId=sehyunfa&logNo=221880333874&categoryNo=96&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView&userTopListOpen=true&userTopListCount=10&userTopListManageOpen=false&userTopListCurrentPage=1)
+
 [SAP Review 1](https://overthecode.io/kr/aws-certified-solution-architect-professional-review/)
+
+
 
 
 

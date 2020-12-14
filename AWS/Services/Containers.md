@@ -4,7 +4,7 @@
 >    
 > ![ECS](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/images/overview-fargate.png)
 >
-> #### AWS Fargate
+> ### AWS Fargate
 > + 컨테이너에 적합한 서버리스 컴퓨팅 엔진으로, Amazon Elastic Container Service(ECS) 및 Amazon Elastic Kubernetes Service(EKS)에서 모두 작동
 > + Fargate에서는 서버를 프로비저닝하고 관리할 필요가 없어 애플리케이션별로 리소스를 지정하고 관련 비용을 지불할 수 있으며, 계획적으로 애플리케이션을 격리함으로써 보안 성능을 향상 가능
 > #### 이점
