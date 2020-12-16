@@ -103,3 +103,14 @@ Amazon Elastic File System (EFS)
 > ### Infrequent Access 스토리지 클래스(EFS IA)
 > + EFS IA에서는 매일 액세스하지 않는 파일에 대해 비용 최적화된 가격/성능을 제공합니다. 파일 시스템에서 EFS 수명 주기 관리를 활성화하기만 하면 선택한 수명 주기 정책에 따라 액세스하지 않은 파일은 EFS IA로 투명하게 자동 이동됩니다. (EFS IA 스토리지 클래스 요금은 월별 GB당 0.025 USD에 불과)
 >
+
+AWS SNOW Family
+-----
+서비스는 물리적 스토리지 디바이스를 사용하여 인터넷보다 빠른 속도로 Amazon Simple Storage Service(Amazon S3)와 온사이트 데이터 스토리지 위치 간에 대량 데이터를 전송
+
+### AWS Snowball
+### AWS Snowmobile
+### AWS Snowball Edge Storage Optimized
+### AWS Snowball Edge Compute Optimized
+
+![snowball](https://d1.awsstatic.com/cloud-storage/Storage/aws-snow-family-snowcone-snowball-snowmobile.a25e546daeb034621917b5350229456e525a1461.png)

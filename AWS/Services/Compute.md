@@ -11,3 +11,15 @@ Amazon Elastic Compute Cloud (EC2)
 > + **전용 인스턴스** - 단일 테넌트 하드웨어에서 실행되는 인스턴스 비용을 시간 단위로 지불합니다.
 > + **용량 예약** – 원하는 기간 동안 특정 가용 영역의 EC2 인스턴스에 대해 용량을 예약합니다.
 >
+#### EC2 Instance & AMI (Amazon Machine Image)
+
+> Instance
+> + 인스턴스는 클라우드의 가상 서버입니다. 시작 시 구성은 인스턴스를 시작할 때 지정한 AMI의 사본입니다.
+> + 하나의 AMI에서 다양한 인스턴스 유형을 실행할 수 있습니다. 인스턴스 유형에 따라 인스턴스에 사용되는 호스트 컴퓨터의 하드웨어가 기본적으로 결정됩니다.
+> + 각 인스턴스 유형은 서로 다른 컴퓨팅 및 메모리 기능을 제공합니다.
+>
+>  AMI (Amazon Machine Image)
+> + 소프트웨어 구성이 기재된 템플릿입니다(예: 운영 체제, 애플리케이션 서버, 애플리케이션)
+>  + 한 AMI로 여러 인스턴스를 실행할 수 있습니다.
+>
+>![AMI](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/images/architecture_ami_instance.png)
