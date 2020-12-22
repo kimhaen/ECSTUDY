@@ -23,3 +23,10 @@ Amazon Elastic Compute Cloud (EC2)
 >  + 한 AMI로 여러 인스턴스를 실행할 수 있습니다.
 >
 >![AMI](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/images/architecture_ami_instance.png)
+
+AWS Elastic Beanstalk
+------
+
+> 사용하여 애플리케이션을 실행하는 인프라에 관계없이 AWS 클라우드에서 애플리케이션을 신속하게 배포하고 관리
+> + 환경구성 > HTTPS
+> 보안우수, SSL접속 가능 

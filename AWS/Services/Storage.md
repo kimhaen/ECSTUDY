@@ -77,14 +77,14 @@ S3 Glacier Deep Archive는 백업 및 재해 복구 사용 사례에도 사용�
 >
 >
 #### 자주 액세스하는 데이터의 범용 스토리지
-+ Amazon S3 Standard(S3 Standard)
++ Amazon S3 Standard
 #### 알 수 없거나 변화하는 액세스
-+ Amazon S3 Intelligent-Tiering(S3 Intelligent-Tiering)
++ Amazon S3 Intelligent-Tiering
 #### 빈번하지 않은 액세스
 + Amazon S3 Standard-Infrequent Access(S3 Standard-IA)
 + Amazon S3 One Zone-Infrequent Access(S3 One Zone-IA)
 #### 장기 아카이브 및 디지털 보존
-+ Amazon S3 Glacier(S3 Glacier)
++ Amazon S3 Glacier
 + Amazon S3 Glacier Deep Archive(S3 Glacier Deep Archive)
 
 
@@ -114,3 +114,12 @@ AWS SNOW Family
 ### AWS Snowball Edge Compute Optimized
 
 ![snowball](https://d1.awsstatic.com/cloud-storage/Storage/aws-snow-family-snowcone-snowball-snowmobile.a25e546daeb034621917b5350229456e525a1461.png)
+
+AWS Elastic Block Store
+-----
+>
+> + **SSD(Solid-State Drive)** — 주요 성능 특성이 IOPS인 작은 I/O 크기의 읽기/쓰기 작업을 자주 처리하는 트랜잭션 워크로드에 최적화되어 있습니다.
+> + **HDD(Hard Disk Drive)** — 주요 성능 특성이 처리량인 대규모 스트리밍 워크로드에 최적화되어 있습니다.
+>
+> ![EBS](https://hiseon.me/wp-content/uploads/2019/06/aws-ebs-types.png)
+>

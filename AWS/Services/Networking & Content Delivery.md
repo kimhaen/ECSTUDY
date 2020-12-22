@@ -1,4 +1,18 @@
-### AWS Direct Connect
+AWS CloudFront
+---
+> + .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 웹 콘텐츠를 사용자에게 더 빨리 배포하도록 지원하는 웹 서비스
+> + CloudFront는 엣지 로케이션이라고 하는 데이터 센터의 전 세계 네트워크를 통해 콘텐츠를 제공
+> + 사용자가 요청하면 지연 시간이 가장 낮은 엣지 로케이션으로 라우팅되므로 콘텐츠 전송 성능이 뛰어남
+>
+>![cloudfront](https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/images/how-you-configure-cf.png)
+>
+> ## 원본 액세스 ID(OAI)를 이용한 Amazon S3 액세스 제한
+> + 원본 액세스 ID(OAI)라는 특수 CloudFront 사용자를 만들어 배포와 연결합니다.
+> + CloudFront에서 OAI를 사용하여 버킷의 파일을 액세스해 사용자에게 제공할 수 있도록 S3 버킷 권한을 구성합니다. 사용자가 S3 버킷에 대한 직접 URL을 사용하여 파일에 액세스할 수 없도록 해야 합니다.
+> + 이 단계를 수행하면 사용자가 S3 버킷에서 직접 액세스하지 않고 CloudFront를 통해서만 파일에 액세스할 수 있습니다.
+
+AWS Direct Connect
+---
 표준 1기가비트 또는 10기가비트 이더넷 광섬유 케이블을 통해 내부 네트워크를 AWS Direct Connect 위치에 연결
 케이블의 한쪽 끝은 사용자의 라우터에 연결되고 다른 쪽 끝은 AWS Direct Connect 라우터에 연결됩니다.
 이 연결을 사용하면 AWS 클라우드 및 Amazon Virtual Private Cloud로 직접적인 가상 인터페이스를 만들어 사용자의 네트워크 경로에서 인터넷 서비스 공급자를 우회할 수 있습니다.
@@ -7,7 +21,8 @@ AWS Direct Connect는 IPv4 및 IPv6 통신 프로토콜을 모두 지원합니�
 퍼블릭 AWS 서비스에서 제공하는 IPv6 주소는 AWS Direct Connect 퍼블릭 가상 인터페이스를 통해 액세스할 수 있습니다.
 
 
-### Elastic Load Balancing
+Elastic Load Balancing
+---
 #### Application Load Balancer, Network Load Balancer 및 Classic Load Balancer.
 [Comparison](https://blueyikim.tistory.com/category/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20%EC%BB%B4%ED%93%A8%ED%8C%85/%EC%95%84%EB%A7%88%EC%A1%B4%28AWS%29)
 + 로드 밸런서 이점
@@ -30,8 +45,8 @@ Elastic Load Balancing은 다음 서비스를 통해 애플리케이션의 가�
 > + AWS WAF — Application Load Balancer와 함께 AWS WAF를 사용하여 웹 ACL(웹 액세스 제어 목록)의 규칙에 따라 요청을 허용하거나 차단할 수 있습니다. 자세한 내용은 Application Load Balancer 및 AWS WAF 단원을 참조하십시오.
 
 
-### Amazon API Gateway
-
+Amazon API Gateway
+---
 규모에 관계없이 자체 REST 및 WebSocket API를 생성하고 배포가능
 >
 >
@@ -47,12 +62,14 @@ Elastic Load Balancing은 다음 서비스를 통해 애플리케이션의 가�
 >
 
 
-### NAT Gateway
+NAT Gateway
+---
 [Document](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/vpc-nat-gateway.html)
 
 > + NAT 디바이스를 사용하면 프라이빗 서브넷의 인스턴스를 인터넷(예: 소프트웨어 업데이트용) 또는 기타 AWS 서비스에 연결하는 한편, 인터넷에서 해당 인스턴스와의 연결을 시작하지 못하게 할 수 있습니다.
 > + NAT 디바이스는 프라이빗 서브넷의 인스턴스에서 인터넷 또는 기타 AWS 서비스로 트래픽을 전달한 다음 인스턴스에 응답을 다시 보냅니다. 트래픽이 인터넷으로 이동하면 소스 IPv4 주소가 NAT 디바이스의 주소로 대체되고, 이와 마찬가지로 응답 트래픽이 해당 인스턴스로 이동하면 NAT 디바이스에서 주소를 해당 인스턴스의 프라이빗 IPv4 주소로 다시 변환합니다.
 
 
-### AWS Global Accelerator
+AWS Global Accelerator
+----
 > AWS 글로벌 네트워크를 통해 구성한 상태, 클라이언트 위치 및 정책을 기반으로 트래픽을 최적의 지역 엔드포인트로 라우팅합니다. 이 서비스는 상태 또는 구성의 변화에 즉시 반응하여 클라이언트의 인터넷 트래픽이 항상 건강한 엔드포인트로 전달되도록 합니다.
