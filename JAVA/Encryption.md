@@ -1,7 +1,9 @@
 AES 128
 ----
-Sample Code
 
+Error Solve - [Base64 Error](https://qastack.kr/programming/13109588/encoding-as-base64-in-java)
+
+Sample Code
 ~~~java
 public Key getAESKey() throws Exception {
     String iv;
