@@ -1,7 +1,21 @@
 AES 128
 ----
+[Online Encryption](https://www.devglan.com/online-tools/aes-encryption-decryption)
 
 Error Solve - [Base64 Error](https://qastack.kr/programming/13109588/encoding-as-base64-in-java)
+~~~~java
+import java.util.Base64;
+
+//Base64의 정적메소드 이용
+byte[] encodedBytes = Base64.getEncoder().encode("Test".getBytes());
+System.out.println("encodedBytes " + new String(encodedBytes));
+byte[] decodedBytes = Base64.getDecoder().decode(encodedBytes);
+System.out.println("decodedBytes " + new String(decodedBytes));
+
+//문자열로 직접 출력
+String encodeBytes = Base64.getEncoder().encodeToString((userName + ":" + password).getBytes());
+~~~~
+
 
 Sample Code
 ~~~java
