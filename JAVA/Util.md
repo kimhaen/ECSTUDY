@@ -102,3 +102,60 @@ ret1 = 2
 ret2 = 456
 ret3 = 789-010
 ~~~~
+
+RandomCode
+---
+[Ref](https://thingsthis.tistory.com/18)
+Sample Code (20)
+~~~~~java
+import java.util.Random;
+class Main {
+  public static void main(String[] args) {
+
+  String reset_pw_key1;
+  String reset_pw_key2;
+
+Random rnd =new Random();
+StringBuffer buf =new StringBuffer();
+StringBuffer buf1 =new StringBuffer();
+
+// reset_pw_key1の生成
+  for(int j=0;j<16;j++){
+
+      if(rnd.nextBoolean()){
+
+          buf.append((char)((int)(rnd.nextInt(26))+97));
+
+      }else{
+
+          buf.append((rnd.nextInt(10)));
+
+      }
+  }
+
+    reset_pw_key1 = buf.toString();
+    System.out.println("reset_pw_key1 : " + reset_pw_key1);
+
+// reset_pw_key2の生成
+  for(int j=0;j<16;j++){
+
+      if(rnd.nextBoolean()){
+
+          buf1.append((char)((int)(rnd.nextInt(26))+97));
+
+      }else{
+
+          buf1.append((rnd.nextInt(10)));
+
+      }
+  }
+    reset_pw_key2 = buf1.toString();
+    System.out.println("reset_pw_key2 : " + reset_pw_key2);
+    }
+}
+
+------Console
+reset_pw_key1 : 12v9nl26m1e1k44u
+reset_pw_key2 : m52ip21t2c6xnwa7
+
+~~~~~
