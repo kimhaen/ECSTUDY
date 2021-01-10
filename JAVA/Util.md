@@ -38,9 +38,7 @@ public class Test { public static void main(String[] args) {
 
 Split
 ---
-
-String[] split(String regex)
-
+Sample Code
 ~~~~java
 String str ="010-1234-5678";
 String [] mobNum = str.split("-");
@@ -109,11 +107,10 @@ RandomCode
 Sample Code (20)
 ~~~~~java
 import java.util.Random;
-class Main {
-  public static void main(String[] args) {
 
-  String reset_pw_key1;
-  String reset_pw_key2;
+
+String reset_pw_key1;
+String reset_pw_key2;
 
 Random rnd =new Random();
 StringBuffer buf =new StringBuffer();
