@@ -69,7 +69,7 @@ System.out.println(cityArr[i]);
 Seoul
 Busan
 Tokyo
-~~~~
+~~~~~
 
 ~~~~java
 String str3 = "123-2-456-789";
@@ -154,5 +154,45 @@ StringBuffer buf1 =new StringBuffer();
 ------Console
 reset_pw_key1 : 12v9nl26m1e1k44u
 reset_pw_key2 : m52ip21t2c6xnwa7
+
+~~~~~
+
+FilenameUtils
+---
+
+~~~~~java
+import org.apache.commons.io.FilenameUtils;
+
+public class test {
+   
+    public static void main(String [] args) {
+        
+        filenameComponents_();
+    }
+ 
+    private static void filenameComponents_() {
+     
+        String filename = "ABC.png";
+        System.out.println("*** File name components ***");
+        System.out.println("File name: " + filename);
+
+        String name = FilenameUtils.getName(filename);
+        System.out.println("Name: " + name);
+         
+        String baseName = FilenameUtils.getBaseName(filename);
+        System.out.println("Base name: " + baseName);
+         
+        String extension = FilenameUtils.getExtension(filename);
+        System.out.println("Extension: " + extension);
+    }
+}
+
+
+------Console
+*** File name components ***
+File name: ABC.png
+Name: ABC.png
+Base name: ABC
+Extension: png
 
 ~~~~~
