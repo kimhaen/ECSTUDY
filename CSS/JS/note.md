@@ -25,3 +25,27 @@ function button1_clicked(evt) {
 }
 
 ~~~~~~~
+
+
+Get Filename & Extension
+-------
+[Ref](https://dev-syhy.tistory.com/20)
+
+~~~~~~~~~~~javascript
+  
+  // GetFilename
+  function getfilename(file_nm : string){
+                var lastDot = file_nm.lastIndexOf('.');
+                var filename = file_nm.substring(0,lastDot);
+                return filename;
+            }
+
+  // GetExtension
+  function getExtension(file_nm : string){
+      var fileLength = file_nm.length;
+      var lastDot = file_nm.lastIndexOf('.');
+      var fileExtension = file_nm.substring(lastDot+1,fileLength);
+      return fileExtension;
+  }
+  
+~~~~~~~~~~~~
