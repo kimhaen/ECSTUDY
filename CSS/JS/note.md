@@ -25,7 +25,35 @@ function button1_clicked(evt) {
 }
 
 ~~~~~~~
+Pdf Download with Pure JS(No-Library)
+----
 
+[CodePen](http://jsfiddle.net/filixix/0816jdfq/)
+
+~~~~~~~~~~~html
+<div style="border: 1px solid black; padding:100px;">
+    
+    <a id='dwnldLnk' download='o ficheirinho de tostas.pdf' style="display:none;" /> 
+    
+    <a href="#" onclick="downloadPDF();" title='o ficheirinho de tostas.pdf'>clica aqui oh sashavore</a>
+
+</div>
+~~~~~~~~~~~
+
+~~~~~~~~~~~javascript
+window.downloadPDF = function downloadPDF() {
+
+    var dlnk = document.getElementById('dwnldLnk');
+    dlnk.href = pdf;
+
+    dlnk.click();
+
+
+    alert('toma');
+}
+
+var pdf = 'data:application/octet-stream;base64,' + "pdf contents";
+~~~~~~~~~~~
 
 Get Filename & Extension
 -------
