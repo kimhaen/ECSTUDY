@@ -17,3 +17,7 @@ Dir
 [Ref](https://stat-and-news-by-daragon9.tistory.com/246)
 
 
+Find
+====
+[Ref](https://www.tipsfound.com/vba/07030)
+
