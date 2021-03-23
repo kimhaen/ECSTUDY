@@ -21,3 +21,11 @@ Find
 ====
 [Ref](https://www.tipsfound.com/vba/07030)
 
+Replace
+====
+[Ref](http://officetanaka.net/excel/vba/function/replace.htm)
+
+
+Function 정리
+=====
+[Ref](http://gilbutbook.tistory.com/1139)
