@@ -96,3 +96,9 @@ SOAP API VS REST API
 > +  ACID를 준수하기 때문에 데이터의 변형을 줄여주고, 데이터베이스와의 상호작용에 대해서 사전에 정확하게 정하기 때문에 데이터의 무결성을 지켜준다
 >
 > ![API](http://blog.wishket.com/wp-content/uploads/2020/02/%EC%BA%A1%EC%B2%98.png)
+
+
+
+DLL(Dynamic Linking Library)
+-----------
+>동적 라이브러리..exe 실행시에 .dll파일 형태로 저장되어있는 동적 라이브러리가 부가적인 기능이나 함수등을 처음부터 새로 작성하지 않고도 추가시켜 줄 수 있다. 
