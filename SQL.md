@@ -40,3 +40,7 @@ pgp_sym_encrypt('aaaaaaa', 'Hdxz3uVLdMqLFpLK')
   values ( 
     gen_random_uuid()
 )
+~~~~~
+
+Practice
+------
