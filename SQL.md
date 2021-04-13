@@ -44,3 +44,4 @@ pgp_sym_encrypt('aaaaaaa', 'Hdxz3uVLdMqLFpLK')
 
 Practice
 ------
+test
